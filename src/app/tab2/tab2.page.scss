@@ -1,0 +1,32 @@
+.content{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+.Transaction{
+    width: 90%;
+    margin: auto;
+    .left{
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+    .right{
+        width: 20%;
+        float: right;
+        color: gray;
+    }
+
+}
+ion-item{
+    width: 100%;
+    border-radius: 11px;
+    margin-top: 10px;
+}
+.button{
+    width: 90%;
+    margin: auto ;
+}
+ion-button{
+    margin: auto;
+}

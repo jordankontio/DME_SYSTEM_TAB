@@ -1,17 +1,12 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+    <div class="content">
+         <!-- <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Tab 2</ion-title>
     </ion-toolbar>
-  </ion-header>
+  </ion-header> -->
 
 
 
@@ -30,50 +25,56 @@
 
   <div class="Transaction">
     <div class="left">
-      <b>Transaction</b>
+      <b>History</b>
     </div>
     <div class="right">
-       See All
+       Weekly
     </div>
-  </div><br><br>
+  </div><br>
 
    <ion-list>
         <ion-item lines="none" color="light">
           
           <ion-avatar slot="start">
-            <img src="../../assets/images/ps.png" />
+            <img src="../../assets/images/dollars.png" />
           </ion-avatar>
           <ion-label>
-            <h4><b> Adobe Photoshop </b></h4>
+            <h4><b> Saving </b></h4>
             <!-- <h3>I'm a big deal</h3> -->
-            <p>May 10.2022 at 08.45</p>
+            <p>Apr 18. 2022</p>
           </ion-label>
-          <div style="color: red;">-$52</div>
+          <div style="color: green;">+$12</div>
         </ion-item>
 
         <ion-item lines="none" color="light">
           <ion-avatar slot="start">
-            <img src="../../assets/images/men.jpeg" />
+            <img src="../../assets/images/dollars.png" />
           </ion-avatar>
           <ion-label>
-            <h4><b> Antonsen </b></h4>
+            <h4><b> Withdrawal </b></h4>
             <!-- <h3>I'm a big deal</h3> -->
-            <p>May 10.2022 at 08.45</p>
+            <p>Apr 15. 2022</p>
           </ion-label>
-          <div style="color: rgb(37, 153, 53);">-$1105</div>
+          <div style="color: red;">-$23</div>
         </ion-item>
 
         <ion-item lines="none" color="light" >
           <ion-avatar slot="start">
-            <img src="../../assets/images/diamond.jpeg" />
+            <img src="../../assets/images/dollars.png" />
           </ion-avatar>
           <ion-label>
-            <h4><b> Skecth </b></h4>
+            <h4><b> Saving </b></h4>
             <!-- <h3>I'm a big deal</h3> -->
-            <p>May 01.2022 at 09.45</p>
+            <p>Apr 11. 2022</p>
           </ion-label>
-          <div style="color: red;">-$15</div>
+          <div style="color: green;">-$42</div>
         </ion-item>
-  </ion-list>
+  </ion-list><br>
+  <div class="button">
+    <ion-button color="success">+ Saving</ion-button>
+
+  </div>
+    </div>
+ 
 
 </ion-content>
