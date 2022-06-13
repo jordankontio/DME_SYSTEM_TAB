@@ -1,0 +1,7 @@
+{
+  "name": "DME_SYSTEM_TAB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
