@@ -1,17 +1,109 @@
-<ion-header [translucent]="true">
+<ion-header [translucent]="true" mode="ios">
   <ion-toolbar>
     <ion-title>
-      Tab 1
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" mode="ios">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div class="content">
+    <ion-header collapse="condense" >
+      <ion-toolbar>
+        <div class="centralpanel">
+          <div class="left">
+            <div class="left1">
+              <ion-avatar>
+                <img src="../../assets/images/kj7.JPG">
+              </ion-avatar>
+            </div>
+            <div class="left2">
+              <ion-label>
+                <h2><b>Hallo,Azhar !</b></h2>
+               <p>Welcome back</p>
+              </ion-label> 
+            </div>
+          </div>
+          <div class="right">
+            <ion-button color="light">         
+               <ion-icon name="notifications" color="success"></ion-icon>
+            </ion-button>
+          </div>
+        </div>
+      </ion-toolbar>
+    </ion-header><br><br>
+    <div class="upcard">
+     
+    </div>
+    <div class="card">
+    </div><br><br>
+
+   <div class="balance">
+     <div class="mdle">
+      <div class="left">
+        <ion-label>
+         <p>Your Balance</p><br>
+         <h2><b> $592.323</b></h2>
+        </ion-label>
+      </div>
+      <div class="right">
+       <ion-label>
+         <p>Trafic/ Work</p><br>
+         <h2 style="color: red;">  -0.89% </h2>
+        </ion-label>
+      </div>
+     </div>
+    
+    </div><br><br>
+    <div class="Transaction">
+      <div class="left">
+        <b>Transaction</b>
+      </div>
+      <div class="right">
+         See All
+      </div>
+    </div><br><br>
+
+     <ion-list>
+          <ion-item lines="none" color="light">
+            
+            <ion-avatar slot="start">
+              <img src="../../assets/images/ps.png" />
+            </ion-avatar>
+            <ion-label>
+              <h4><b> Adobe Photoshop </b></h4>
+              <!-- <h3>I'm a big deal</h3> -->
+              <p>May 10.2022 at 08.45</p>
+            </ion-label>
+            <div style="color: red;">-$52</div>
+          </ion-item>
+
+          <ion-item lines="none" color="light">
+            <ion-avatar slot="start">
+              <img src="../../assets/images/men.jpeg" />
+            </ion-avatar>
+            <ion-label>
+              <h4><b> Antonsen </b></h4>
+              <!-- <h3>I'm a big deal</h3> -->
+              <p>May 10.2022 at 08.45</p>
+            </ion-label>
+            <div style="color: rgb(37, 153, 53);">-$1105</div>
+          </ion-item>
+
+          <ion-item lines="none" color="light" >
+            <ion-avatar slot="start">
+              <img src="../../assets/images/diamond.jpeg" />
+            </ion-avatar>
+            <ion-label>
+              <h4><b> Skecth </b></h4>
+              <!-- <h3>I'm a big deal</h3> -->
+              <p>May 01.2022 at 09.45</p>
+            </ion-label>
+            <div style="color: red;">-$15</div>
+          </ion-item>
+    </ion-list>
+
+  </div>
+  
+  
 </ion-content>
