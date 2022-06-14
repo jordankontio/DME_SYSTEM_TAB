@@ -50,7 +50,7 @@
 
     background-color: #F9F9F9;
     margin: auto;
-    height: 64px;
+    height: 50px;
     width: 100%;
     border-radius: 10px;
     .mdle{
@@ -96,11 +96,19 @@ ion-avatar{
 ion-label,b,p,h2{
     color: #306060;
 }
+b{
+    font-size: 10px;
+}
 p{
     color: #306060;
 }
 ion-icon{
     --background: #306060;
 
+}
+.info{
+    --background: #1d4348;
+    color: white;
+    font-size: 15px;
 }
 
