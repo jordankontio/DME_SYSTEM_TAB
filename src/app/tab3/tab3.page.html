@@ -1,16 +1,86 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
+<ion-header class="ion-no-border" >
+  <ion-toolbar>    
+  
+    <ion-buttons slot="start">
+      <ion-back-button color="dark"></ion-back-button>
+    </ion-buttons>
+    <ion-title> 
+      <ion-title  size="small">Transaction</ion-title>
     </ion-title>
+   
   </ion-toolbar>
-</ion-header>
+</ion-header><br><br>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  
+  <div class="content">
+    <div class="trans">
+      <ion-label  style="float: left; margin-left: 10px;font-size: 20px; margin-top: 10px" slot="start"> <b> $271.560 </b> <br> </ion-label>
+      <ion-label  style="float: right; margin-right: 10px ; color: gray; font-size: 10px; margin-top: 8%; background-color: #F9F9F9;"><b> <ion-icon name="calendar"></ion-icon>Montly <ion-icon name="chevron-down-outline"></ion-icon></b></ion-label><br><br>
+      <ion-label style="float: left; font-size: 10px; margin-left: 10px; color: gray;"> <b style="color:#95d3c3 ;">+25.15%</b> than last month</ion-label>
+    </div><br><br>
+
+
+
+    <div class="Transaction">
+      <div class="left">
+        <b>Expensess  <ion-icon name="chevron-down-outline"></ion-icon></b>
+      </div>
+      <div class="right">
+         
+      </div>
+    </div><br><br>
+     <ion-list>
+          <ion-item lines="none" color="light">
+            
+            <ion-avatar slot="start">
+              <img src="../../assets/images/paypal.png" />
+            </ion-avatar>
+            <ion-label>
+              <h4><b> Paypal </b></h4>
+              <!-- <h3>I'm a big deal</h3> -->
+              <p>Apr 18. 2022</p>
+            </ion-label>
+            <div style="color: #42bf9d;">+$12</div>
+          </ion-item>
+  
+          <ion-item lines="none" color="light">
+            <ion-avatar slot="start">
+              <img src="../../assets/images/qiwi.png" />
+            </ion-avatar>
+            <ion-label>
+              <h4><b> Qiwi </b></h4>
+              <!-- <h3>I'm a big deal</h3> -->
+              <p>Apr 15. 2022</p>
+            </ion-label>
+            <div style="color: #42bf9d;">+$23</div>
+          </ion-item>
+  
+          <ion-item lines="none" color="light" >
+            <ion-avatar slot="start">
+              <img src="../../assets/images/men.jpeg" />
+            </ion-avatar>
+            <ion-label>
+              <h4><b> Antonsen </b></h4>
+              <!-- <h3>I'm a big deal</h3> -->
+              <p>Apr 11. 2022</p>
+            </ion-label>
+            <div style="color: #42bf9d;">+$42</div>
+          </ion-item>
+          <ion-item lines="none" color="light" >
+            <ion-avatar slot="start">
+              <img src="../../assets/images/paypal.png" />
+            </ion-avatar>
+            <ion-label>
+              <h4><b> Paypal </b></h4>
+              <!-- <h3>I'm a big deal</h3> -->
+              <p>Apr 11. 2022</p>
+            </ion-label>
+            <div style="color: #42bf9d;">+$42</div>
+          </ion-item>
+    </ion-list><br>
+  </div>
+
+  
 
 </ion-content>

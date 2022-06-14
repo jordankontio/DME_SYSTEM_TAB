@@ -1,17 +1,30 @@
-
+<ion-header class="ion-no-border" >
+  <ion-toolbar>    
+  
+    <ion-buttons slot="start">
+      <ion-back-button color="dark"></ion-back-button>
+    </ion-buttons>
+    <ion-title> 
+      <ion-title  size="small">My planning</ion-title>
+    </ion-title>
+   
+  </ion-toolbar>
+</ion-header><br><br>
 
 <ion-content [fullscreen]="true">
-    <div class="content">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<div class="content">
+  <div class="week">
+    <ion-label> <h1> $800/ <b>$5700</b></h1> </ion-label>
+    <ion-label style="font-size:8px ;"> <b style="color:red">- 10.5%</b> that last week-end</ion-label>
+  </div>
 
   <div class="house" >
-    <ion-label  style="float: left; margin-left: 10px; margin-top: 10px" slot="start"> <b> Buy a House</b></ion-label>
-    <ion-label style="float: right; margin-right: 10px ;"><b>...</b></ion-label>
-
+    <ion-label  style="float: left; margin-left: 10px;font-size: 15px; margin-top: 10px" slot="start"> <b> Buy a House </b> <br> </ion-label>
+    <ion-label  style="float: right; margin-right: 10px ; color: gray;"><b>...</b></ion-label><br><br>
+    <ion-label style="float: left; font-size: 10px; margin-left: 10px; color: gray;">10 May 2022</ion-label>
+    <ion-label  style="float: left; margin-left: 10px; margin-top: 10px ; color: gray;" slot="start"> </ion-label><br> <br>
+    <ion-progress-bar value="0.25" ></ion-progress-bar><br>
+    <ion-label  style="float: left; margin-left: 10px; font-size: 12px; margin-top: 10px; color: #306060;" slot="start"> <ion-icon name="calendar"></ion-icon> Target for 30 December 2022</ion-label>
   </div><br><br>
 
   <div class="Transaction">
@@ -33,7 +46,7 @@
             <!-- <h3>I'm a big deal</h3> -->
             <p>Apr 18. 2022</p>
           </ion-label>
-          <div style="color: green;">+$12</div>
+          <div style="color: #42bf9d;">+$12</div>
         </ion-item>
 
         <ion-item lines="none" color="light">
@@ -45,7 +58,7 @@
             <!-- <h3>I'm a big deal</h3> -->
             <p>Apr 15. 2022</p>
           </ion-label>
-          <div style="color: red;">-$23</div>
+          <div style="color: #f86868;">-$23</div>
         </ion-item>
 
         <ion-item lines="none" color="light" >
@@ -57,14 +70,14 @@
             <!-- <h3>I'm a big deal</h3> -->
             <p>Apr 11. 2022</p>
           </ion-label>
-          <div style="color: green;">-$42</div>
+          <div style="color: #42bf9d;">-$42</div>
         </ion-item>
   </ion-list><br>
   <div class="button">
-    <ion-button color="success">+ Saving</ion-button>
+    <ion-button>+ Saving</ion-button>
 
   </div>
-    </div>
+</div>
  
 
 </ion-content>

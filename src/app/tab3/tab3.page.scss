@@ -1,0 +1,70 @@
+.content{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+.Transaction{
+    width: 90%;
+    margin: auto;
+    .left{
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+    .right{
+        width: 20%;
+        float: right;
+        color: gray;
+    }
+
+}
+ion-item{
+    width: 95%;
+    border-radius: 11px;
+    margin-top: 10px;
+    background-color: #f4f5f8;
+    color: #306060;
+
+
+}
+// .button{
+//     width: 90%;
+//     margin: auto ;
+    
+// }
+ion-button{
+    margin: auto;
+   width: 100%;
+   --background: #306060;
+}
+.house{
+    
+    width:95% ;  
+    margin: auto ;
+    height:150px;
+    background-color: #f4f5f8;
+    border-radius: 21px;
+
+}
+ion-progress-bar{
+    height: 20px;
+    width: 95%;
+    margin: auto;
+    border-radius: 24px;
+    --buffer-background: #d9d9d9;
+    --progress-background: #306060;  
+      
+
+}
+.week{
+    width:95% ;  
+    margin: auto ;
+    height:100px;
+    // background-color: rgb(112, 81, 81);
+    border-radius: 21px;
+    text-align: center;
+
+}
+ion-label,b,p{
+    color: #306060;
+}
